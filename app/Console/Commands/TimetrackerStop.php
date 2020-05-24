@@ -44,9 +44,11 @@ class TimetrackerStop extends Command
         try{
             // Calling function to create a new task
             $process = $task->internalUpdateTask($task_name);
-            echo "Task successfully stopped\n\n";
+
+            if($process !== false ) echo "Task successfully stopped\n\n";
+
         } catch(Exception $e){
-            echo $e. "\n";
+            echo "Unable to stop ".$task_name."\n";
         }
     }
 }

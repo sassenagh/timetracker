@@ -69,6 +69,10 @@ class TasksController extends Controller
                 ->orderBy('created_at', 'desc')
                 ->first();
 
+        if(!$task){
+            echo "Unable to stop ".$task_name."\n\n";
+            return false;
+        }
         // Task successfully stopped
         $task->status = 'stopped';
 
