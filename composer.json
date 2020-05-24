@@ -39,8 +39,7 @@
         },
         "classmap": [
             "database/seeds",
-            "database/factories",
-            "app/Timetrackerscript.php"
+            "database/factories"
         ]
     },
     "autoload-dev": {
