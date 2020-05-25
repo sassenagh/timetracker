@@ -50,9 +50,9 @@ That commands allow you to see the tasks that are stored in the database during 
 
 ## Authors
 
--   **Anna Alcaide** - _Initial work_ - [TimeTracker](https://github.com/)
+-   **Anna Alcaide** - _Initial work_ - [TimeTracker](https://github.com/sassenagh/timetracker)
 
 ## Acknowledgments
 
 -   If you accidentally refreshed the page or lost connection before stopping the test at the time you needed, you can always stop it by using the script ;)
-    Have a look here -> Deployment by script
+    Have a look here -> Running Timetracker by script
