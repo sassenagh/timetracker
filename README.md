@@ -13,7 +13,7 @@ Tasks can get 3 different states:
 
 ### Prerequisites
 
-You need to have Docker and docker-compose already installed.
+You need to have Composer, Docker and docker-compose already installed.
 
 ### Installing
 
